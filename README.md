@@ -4,8 +4,10 @@ DaemonTweety
 A simple twitter notification daemon
 
 ## Introduction
-This is a dirty Python script showing your timeline tweets in small dialogs. In every dialogs it shows the avatar of who is twetting and let you retweet.
+This is a dirty Python script showing your timeline tweets in small dialogs. In every dialog it shows the avatar of who is twetting and it lets you retweet. All the links in tweets are clickable!
 It is built with [libnotify](http://www.galago-project.org/news/index.php) and [Python Twitter](https://github.com/bear/python-twitter) 
+
+From here https://dev.twitter.com/apps add it as your application, get the OAuth credentials and fit them in it (at the beginning of the script there are some dedicated variables). 
 
 ## License
 ```
